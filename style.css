@@ -31,11 +31,59 @@ nav ul li{
 }
 
 /* banner-style */
-.banner-content{
+.hero{
     background-image: url('assets/Hero-bg.png');
     height: 650px;
+    
+}
+.hero-banner-content{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    width: 900px;
+    margin: 0 auto ;
+
+}
+
+.hero-banner-title{
+    font-size: 60px;
+    font-family: "poppins", sans-serif;
+    line-height: 80px;
+}
+.hero-banner-description{
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    margin: 20px auto;
+    font-weight: 600;
+}
+.hero-banner-image{
+    margin-top: 50px;
+
+}
+.btn-primary{
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+
+
+}
+
+/* section */
+
+main section{
+    max-width: 1540px;;
+}
+.Why-Web-Dev{
+    background-color: rgb(208, 198, 198);
+    width: 1300px;
+    height: 800px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 80px;
+
 }
