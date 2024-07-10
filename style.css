@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
 }
-nav{
+
+nav {
     max-width: 1540px;
     padding: 40px 0;
     display: flex;
@@ -12,12 +13,14 @@ nav{
     background-color: rgb(255, 255, 255);
     margin: 0 80px;
 }
-.header-logo{
+
+.header-logo {
     font-size: 35px;
     font-family: "Poppins", sans-serif;
     color: black;
 }
-.dl-btn{
+
+.dl-btn {
     color: black;
     background-color: white;
     padding: 10px 30px;
@@ -25,44 +28,49 @@ nav{
     font-size: 18px;
     font-family: "poppins", sans-serif;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     text-decoration: none;
 }
 
 /* banner-style */
-.hero{
+.hero {
     background-image: url('assets/Hero-bg.png');
     height: 650px;
-    
+
 }
-.hero-banner-content{
+
+.hero-banner-content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
     width: 900px;
-    margin: 0 auto ;
+    margin: 0 auto;
 
 }
 
-.hero-banner-title{
+.hero-banner-title {
     font-size: 60px;
     font-family: "poppins", sans-serif;
     line-height: 80px;
 }
-.hero-banner-description{
+
+.hero-banner-description {
     font-size: 18px;
     font-family: "poppins", sans-serif;
     margin: 20px auto;
     font-weight: 600;
 }
-.hero-banner-image{
+
+.hero-banner-image {
     margin-top: 50px;
 
 }
-.btn-primary{
+
+.btn-primary {
     padding: 10px 30px;
     color: white;
     background-color: black;
@@ -75,67 +83,97 @@ nav ul li{
 
 /* section */
 
-main section{
-    max-width: 1540px;;
+main section {
+    max-width: 1540px;
+    ;
 }
-.Why-Web-Dev{
+
+.Why-Web-Dev {
     background-color: rgb(247, 247, 247);
     width: 1250px;
-    height: 800px;
+    height: 1230px;
     border-radius: 10px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 80px;
 }
-.text-container{
+
+.text-container {
     display: flex;
 
 }
-.Why-Web-Dev-text{
+
+.Why-Web-Dev-text {
     width: 900px;
     margin: 0 auto;
-    border: 1px solid;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 
 }
 
-.Why-Web-Dev-text .wev-dev-section-title{
+.Why-Web-Dev-text .wev-dev-section-title {
     font-size: 30px;
     font-family: "poppins", sans-serif;
 }
-.wev-dev-section-discription{
+
+.wev-dev-section-description {
     font-size: 18px;
     font-family: "poppins", sans-serif;
     font-weight: 600;
 
 
 }
-.card-container{
+
+.card-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 30px;
 
 }
-.card-01{
+
+.card-01 {
     width: 1000px;
     height: 300px;
-    background-image:linear-gradient( to right, rgb(255, 255, 255), rgb(247, 247, 247));
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(247, 247, 247));
     border-radius: 10px;
-    
+
 }
-.card-01-box{
+
+.card-02 {
+    width: 1000px;
+    height: 300px;
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(247, 247, 247));
+    border-radius: 10px;
+}
+
+.card-03 {
+    width: 1000px;
+    height: 300px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(247, 247, 247));
+    border-radius: 10px;
+}
+
+.card-01-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 30px 50px 30px 50px;
 
-    
+
 }
-.card-text{
-    width: 500px;    
+
+.card-text {
+    width: 500px;
 }
-.card-title{
+
+.card-text-02 {
+    width: 500px;
+    margin-right: 90px;
+}
+
+.card-title {
     color: black;
     font-size: 24px;
     word-spacing: 5px;
@@ -143,13 +181,15 @@ main section{
     font-family: "poppins", sans-serif;
 
 }
-.card-description{
+
+.card-description {
     color: rgb(93, 93, 93);
     font-size: 15px;
     margin-top: 10px;
     font-family: "poppins", sans-serif;
 }
-.L-M-btn{
+
+.L-M-btn {
     color: black;
     border: 1px solid black;
     font-family: "poppins", sans-serif;
@@ -157,4 +197,176 @@ main section{
     background: none;
     padding: 5px 15px;
     margin-top: 10px;
+}
+
+.inspiration-section {
+    background-color: rgb(255, 255, 255);
+    width: 1250px;
+    height: 815px;
+    margin: 80px auto;
+
+}
+
+.inspiration-text-box {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.inspiration-text-container {
+    display: flex;
+}
+
+.inspiration-text-title {
+    font-size: 30px;
+    font-family: "poppins", sans-serif;
+}
+
+.inspiration-text-description {
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+
+}
+
+.video-container {
+    width: 1210px;
+    height: 600px;
+    background-color: red;
+    border-radius: 18px;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+
+video {
+    width: 1210px;
+    height: 600px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.target-section {
+    background-color: rgb(255, 255, 255);
+    width: 1250px;
+    height: 580px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+
+.target-text-container {
+    display: flex;
+}
+
+.target-text-box {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.target-text-title {
+    font-size: 30px;
+    font-family: "poppins", sans-serif;
+
+
+}
+
+.target-text-description {
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+
+
+}
+
+.target-card {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.html-card {
+    width: 320px;
+    height: 300px;
+    background-color: rgb(255, 208, 132);
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.html-card img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.card-element-tittle {
+    font-size: 30px;
+    font-family: "poppins", sans-serif;
+
+}
+
+.description {
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+}
+
+.css-card {
+    width: 320px;
+    height: 300px;
+    background-color: rgb(152, 229, 255);
+    border-radius: 12px;
+    padding: 40px;
+
+}
+
+.css-card img {
+    width: 100px;
+    margin-bottom: 10px;
+
+}
+
+/* support-section */
+.support-box{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.278), rgba(0, 0, 0, 0.278)), url('assets/handshake.jpg');
+    width: 1250px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.support-text{
+    text-align: center;
+    margin: auto 0;
+    
+}
+.support-title{
+    font-size: 30px;
+    font-family: "poppins", sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+.support-description{
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.support-text input type[text] {
+    padding: 10px 60px;
+    border: none;
+    background-color: white;
+
 }
